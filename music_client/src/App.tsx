@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import GlobalStyle from './style/GlobalStyle';
 import Layout from './component/Layout/Layout';
+import Slider from './component/Slider/Slider';
 
 function App() {
   return (
     <div className="App">
       <Layout />
+      <Slider />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
