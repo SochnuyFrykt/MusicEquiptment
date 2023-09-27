@@ -5,7 +5,6 @@ const Slider = () => {
     return (
         <>
             <div className={slider.conteiner}>
-                Контейнер слайдера
                 <div className={slider.slider}>
                     Слайдер
                 </div>
