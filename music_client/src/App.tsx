@@ -9,16 +9,16 @@ import Footer from './component/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Layout />
-      <Slider />
-      <ProductCategory />
-      <h1>Новинки</h1>
-      <hr />
-      <Slider />
-      <Addresses />
-      <hr />
-      <GlobalStyle />
-      <Footer />
+        <Layout />
+        <Slider />
+        <ProductCategory />
+        <h1>Новинки</h1>
+        <hr />
+        <Slider />
+        <Addresses />
+        <hr />
+        <GlobalStyle />
+        <Footer />
     </div>
   );
 }

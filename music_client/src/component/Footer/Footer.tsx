@@ -5,7 +5,22 @@ const Footer = () => {
     return (
         <>
             <div className={foo.container}>
-                <h1>Футер</h1>
+                <div className={foo.blocks}>
+                    <h3>Мы в соц. сетях</h3>
+                    <p>Ссылка</p>
+                    <p>Ссылка</p>
+                    <p>Ссылка</p>
+                    <p>Ссылка</p>
+                    <p>Ссылка</p>
+                </div>
+                <div className={foo.blocks}>
+                    <h3>Контакты</h3>
+                    <p>Телефон: </p>
+                    <p>Почта: </p>
+                </div>
+                <div className={foo.blocks}>
+                    <h3>Полезное</h3>
+                </div>
             </div>
         </>
     );
