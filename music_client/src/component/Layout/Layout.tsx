@@ -1,27 +1,26 @@
 import React from 'react';
 import nb from './layout.module.scss'
+import Logo from './LayoutComponent/Logo/Logo';
 
 const Layout = (): React.ReactElement => {
     return (
         <>
-            <div className = {nb.layout}>
-                <ul>
-                    <li>
-                        <a href="/">Logo</a>
-                    </li>
-                    <li>
-                        <a href="/">search</a>
-                    </li>
-                    <li>
-                        <a href="/">icon</a>
-                    </li>
-                    <li>
-                        <a href="/">basket</a>
-                    </li>
-                    <li>
-                        <a href="/">menu</a>
-                    </li>
-                </ul>
+            <div className={nb.layout}>
+                <div>
+                    <Logo />
+                </div>
+                <div>
+                    <a href="/">search</a>
+                </div>
+                <div>
+                    <a href="/">icon</a>
+                </div>
+                <div>
+                    <a href="/">basket</a>
+                </div>
+                <div>
+                    <a href="/">menu</a>
+                </div>
             </div>
         </>
     );
