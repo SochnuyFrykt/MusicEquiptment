@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import GlobalStyle from './style/GlobalStyle';
 import Layout from './component/Layout/Layout';
 import Slider from './component/Slider/Slider';

@@ -1,11 +1,12 @@
 import React from 'react';
+import search from './search.module.scss'
 
 const Search = () => {
     return(
         <>
-            <div className="">
-                Щас найдём
-            </div>
+            <form className={search.form}>
+                <input placeholder='Щас найдём...' />
+            </form>
         </>
     );
 }

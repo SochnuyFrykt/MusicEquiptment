@@ -1,0 +1,17 @@
+.form {
+    
+    font-weight: 5%;
+    margin: 30px auto 30px;
+}
+
+.form input {
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.form input:focus {
+    border: 1px solid #b500b9;
+    cursor: pointer;
+}
