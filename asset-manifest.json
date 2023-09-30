@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MusicEquiptment/static/css/main.2f80bf02.css",
-    "main.js": "/MusicEquiptment/static/js/main.16051f0e.js",
+    "main.css": "/MusicEquiptment/static/css/main.0006dc96.css",
+    "main.js": "/MusicEquiptment/static/js/main.204e8fa4.js",
     "static/js/787.2bf340c4.chunk.js": "/MusicEquiptment/static/js/787.2bf340c4.chunk.js",
     "static/media/Logo.jpg": "/MusicEquiptment/static/media/Logo.e6ab0ce185e13d01a74e.jpg",
     "index.html": "/MusicEquiptment/index.html",
-    "main.2f80bf02.css.map": "/MusicEquiptment/static/css/main.2f80bf02.css.map",
-    "main.16051f0e.js.map": "/MusicEquiptment/static/js/main.16051f0e.js.map",
+    "main.0006dc96.css.map": "/MusicEquiptment/static/css/main.0006dc96.css.map",
+    "main.204e8fa4.js.map": "/MusicEquiptment/static/js/main.204e8fa4.js.map",
     "787.2bf340c4.chunk.js.map": "/MusicEquiptment/static/js/787.2bf340c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f80bf02.css",
-    "static/js/main.16051f0e.js"
+    "static/css/main.0006dc96.css",
+    "static/js/main.204e8fa4.js"
   ]
 }
