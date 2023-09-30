@@ -1,6 +1,7 @@
 import React from 'react';
 import nb from './layout.module.scss'
 import Logo from './LayoutComponent/Logo/Logo';
+import Search from './LayoutComponent/Search/Search';
 
 const Layout = (): React.ReactElement => {
     return (
@@ -10,7 +11,7 @@ const Layout = (): React.ReactElement => {
                     <Logo />
                 </div>
                 <div>
-                    <a href="/">search</a>
+                    <Search />
                 </div>
                 <div>
                     <a href="/">icon</a>
