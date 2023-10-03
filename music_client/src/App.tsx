@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
         <Layout />
-        <Slider />
+        <Slider /> 
         <ProductCategory />
         <h1>Новинки</h1>
         <hr />

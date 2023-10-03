@@ -2,6 +2,9 @@ import React from 'react';
 import nb from './layout.module.scss'
 import Logo from './LayoutComponent/Logo/Logo';
 import Search from './LayoutComponent/Search/Search';
+import Icon from './LayoutComponent/Icon/Icon';
+import Basket from './LayoutComponent/Basket/Basket';
+import Menu from './LayoutComponent/Menu/Menu';
 
 const Layout = (): React.ReactElement => {
     return (
@@ -14,13 +17,13 @@ const Layout = (): React.ReactElement => {
                     <Search />
                 </div>
                 <div>
-                    <a href="/">icon</a>
+                   <Icon />
                 </div>
                 <div>
-                    <a href="/">basket</a>
+                    <Basket />
                 </div>
                 <div>
-                    <a href="/">menu</a>
+                    <Menu />
                 </div>
             </div>
         </>
